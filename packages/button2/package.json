@@ -1,6 +1,6 @@
 {
   "name": "@my/button2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib",
   "scripts": {
@@ -15,5 +15,5 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "fcc39b21bb51c9c1b124ab9ca653a680fc881f3d"
+  "gitHead": "4161375ecb0b318cb968654d850dc299b847d800"
 }

@@ -1,7 +1,2 @@
-import React from "react"
-
-const Button = () => (
-  <button type="button">test</button>
-    )
-
-export default Button
+import Button2 from "@my/button2"
+export default Button2

@@ -3,3 +3,4 @@ lib/
 yarn-error.log
 coverage/
 .next/
+lerna-debug.log
