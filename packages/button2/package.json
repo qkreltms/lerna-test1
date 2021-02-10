@@ -1,0 +1,21 @@
+{
+    "name": "@my/button2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib",
+    "scripts": {
+      "type": "tsc --noEmit",
+      "clean": "rimraf lib coverage",
+      "build:ts": "tsc --declarationDir lib --emitDeclarationOnly",
+      "build:js": "babel --root-mode upward src --out-dir lib --extensions .ts,.tsx,.js,.jsx",
+      "build": "yarn clean && yarn build:js && yarn build:ts"
+    },
+    "publishConfig": {
+      "registry": "http://localhost:4873/",
+      "directory": "lib"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {}
+  }
+  
