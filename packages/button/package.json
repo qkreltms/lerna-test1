@@ -11,10 +11,9 @@
     "build": "yarn clean && yarn build:js && yarn build:ts"
   },
   "publishConfig": {
-    "registry": "http://localhost:4873/",
-    "directory": "lib"
+    "registry": "http://localhost:4873/"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {}
+  "gitHead": "fcc39b21bb51c9c1b124ab9ca653a680fc881f3d"
 }

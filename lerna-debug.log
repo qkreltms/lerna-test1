@@ -1,0 +1,59 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   bump: 'from-package'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath D:\javascript\multirepo-test3
+3 info versioning independent
+4 verbose session 240d528fe1d22a3f
+5 verbose user-agent lerna/3.22.1/node@v14.15.3+x64 (win32)
+6 warn Yarn's registry proxy is broken, replacing with public npm registry
+7 warn If you don't have an npm token, you should exit and run `npm login`
+8 verbose git-describe undefined => "fcc39b2"
+9 silly git-describe parsed => {"refCount":"1","sha":"fcc39b2","isDirty":false}
+10 silly getUnpublishedPackages
+11 warn Unable to determine published version, assuming "@my/button" unpublished.
+12 warn Unable to determine published version, assuming "@my/button2" unpublished.
+13 info publish Publishing packages to npm...
+14 info Verifying npm credentials
+15 verbose Retrieving npm user profile
+16 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 300ms
+17 silly npm profile get received {"tfa":false,"name":"qkreltms","email":"junghooncentralpark@gmail.com","email_verified":true,"created":"2017-02-12T02:16:46.708Z","updated":"2021-01-02T08:48:20.926Z","cidr_whitelist":null}
+18 silly get npm username received {"username":"qkreltms","tfa":false,"name":"qkreltms","email":"junghooncentralpark@gmail.com","email_verified":true,"created":"2017-02-12T02:16:46.708Z","updated":"2021-01-02T08:48:20.926Z","cidr_whitelist":null}
+19 silly verifyNpmPackageAccess
+20 http fetch GET 200 https://registry.npmjs.org/-/org/qkreltms/package?format=cli 266ms
+21 info Checking two-factor auth mode
+22 verbose Retrieving npm user profile
+23 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 692ms
+24 silly npm profile get received {"tfa":false,"name":"qkreltms","email":"junghooncentralpark@gmail.com","email_verified":true,"created":"2017-02-12T02:16:46.708Z","updated":"2021-01-02T08:48:20.926Z","cidr_whitelist":null}
+25 silly 2FA false
+26 warn ENOLICENSE Packages @my/button2 and @my/button are missing a license.
+26 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+26 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+27 silly getCurrentSHA
+28 verbose getCurrentSHA fcc39b21bb51c9c1b124ab9ca653a680fc881f3d
+29 silly lifecycle No script for "prepublish" in "root", continuing
+30 silly lifecycle No script for "prepare" in "root", continuing
+31 silly lifecycle No script for "prepublishOnly" in "root", continuing
+32 silly lifecycle No script for "prepack" in "root", continuing
+33 verbose pack-directory packages\button2\lib
+34 verbose pack-directory packages\button\lib
+35 silly lifecycle No script for "prepublish" in "@my/button2", continuing
+36 silly lifecycle No script for "prepublish" in "@my/button", continuing
+37 silly lifecycle No script for "prepare" in "@my/button2", continuing
+38 silly lifecycle No script for "prepare" in "@my/button", continuing
+39 silly lifecycle No script for "prepublishOnly" in "@my/button2", continuing
+40 silly lifecycle No script for "prepublishOnly" in "@my/button", continuing
+41 silly lifecycle No script for "prepack" in "@my/button2", continuing
+42 silly lifecycle No script for "prepack" in "@my/button", continuing
+43 silly lifecycle No script for "postpack" in "@my/button2", continuing
+44 verbose packed packages\button2\lib
+45 silly lifecycle No script for "postpack" in "@my/button", continuing
+46 verbose packed packages\button\lib
+47 silly lifecycle No script for "postpack" in "root", continuing
+48 verbose publish @my/button2
+49 verbose publish @my/button
+50 error
