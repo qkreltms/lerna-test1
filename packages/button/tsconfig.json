@@ -3,7 +3,11 @@
   "compilerOptions": {
     "declarationDir": "./lib",
     "rootDir": "./src",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "composite": true
   },
-  "include": ["./src", "../../global.d.ts", ""]
+  "include": ["./src", "../../global.d.ts"],
+  "references": [
+    { "path": "../button2" }
+  ]
 }

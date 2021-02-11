@@ -1,9 +1,9 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": ["packages/*"]
+  },
   "scripts": {
     "build": "lerna run --parallel build",
     "storybook": "start-storybook -p 6006",

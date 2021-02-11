@@ -2000,6 +2000,11 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@my/button2@1.0.1":
+  version "1.0.1"
+  resolved "http://localhost:4873/@my%2fbutton2/-/button2-1.0.1.tgz#27758c8c97476007d57ab08b587cc7d4076a192f"
+  integrity sha512-5QADAAqJdSXCwJ8TwIrUUlMQlarKvCRW0gOG7DS87TGquU5URITSJbwkX4Hz5cPGGAfYlHnEEp+8iapae3p8Zg==
+
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents":
   version "2.1.8-no-fsevents"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.tgz#da7c3996b8e6e19ebd14d82eaced2313e7769f9b"
