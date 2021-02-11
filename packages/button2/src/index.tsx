@@ -1,8 +1,8 @@
 import React from "react"
-import style from "./index.module.scss"
+import styles from "./Button.module.scss"
 
 const Button = () => (
-  <button type="button" style={style.myLovedButton}>test2</button>
+  <button type="button" className={styles.simpleButton}>test2</button>
     )
 
 export default Button
