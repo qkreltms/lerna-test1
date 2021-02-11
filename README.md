@@ -1,3 +1,3 @@
 # lerna-test1
 
-yarn install
+Type `yarn install` to install all packages
