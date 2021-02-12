@@ -17,6 +17,6 @@
   "license": "ISC",
   "gitHead": "e6431d9c50cc71881b120cf6d8dc8d8a7bb0f279",
   "dependencies": {
-    "@my/button2": "^1.0.5"
+    "@my/button2": "^1.0.7"
   }
 }
