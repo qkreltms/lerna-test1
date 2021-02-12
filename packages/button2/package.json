@@ -7,7 +7,7 @@
     "type": "tsc --noEmit",
     "clean": "rimraf lib coverage",
     "build:ts": "tsc --declarationDir lib --emitDeclarationOnly",
-    "build:js": "babel --root-mode upward src --out-dir lib --extensions .ts,.tsx,.js,.jsx",
+    "build:js": "webpack-cli",
     "build": "yarn clean && yarn build:js && yarn build:ts"
   },
   "publishConfig": {

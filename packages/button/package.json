@@ -7,7 +7,7 @@
     "type": "tsc --noEmit",
     "clean": "rimraf lib coverage",
     "build:ts": "tsc --declarationDir lib --emitDeclarationOnly",
-    "build:js": "babel --root-mode upward src --out-dir lib --extensions .ts,.tsx,.js,.jsx",
+    "build:js": "webpack-cli",
     "build": "yarn clean && yarn build:js && yarn build:ts"
   },
   "publishConfig": {
@@ -17,6 +17,6 @@
   "license": "ISC",
   "gitHead": "e6431d9c50cc71881b120cf6d8dc8d8a7bb0f279",
   "dependencies": {
-    "@my/button2": "1.0.1"
+    "@my/button2": "^1.0.5"
   }
 }
