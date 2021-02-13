@@ -3,7 +3,7 @@ import styles from './Button.module.scss';
 
 const Button = () => (
   <button type="button" className={styles.simpleButton}>
-    test5
+    test7
   </button>
 );
 

@@ -1,6 +1,6 @@
 {
   "name": "@my/button2",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "",
   "main": "lib",
   "scripts": {
@@ -8,12 +8,12 @@
     "clean": "rimraf lib coverage",
     "build:ts": "tsc --declarationDir lib --emitDeclarationOnly",
     "build:js": "webpack-cli",
-    "build": "yarn clean && yarn build:js && yarn build:ts"
+    "build": "npm run clean && npm run build:js && npm run build:ts"
   },
   "publishConfig": {
     "registry": "http://localhost:4873/"
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "e6431d9c50cc71881b120cf6d8dc8d8a7bb0f279"
+  "gitHead": "f7eeacbb72ac1cb4623392a83724b455a42bb957"
 }

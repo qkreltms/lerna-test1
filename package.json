@@ -1,11 +1,5 @@
 {
   "name": "root",
-  "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
   "scripts": {
     "build": "lerna run --parallel build",
     "storybook": "start-storybook -p 6006",
@@ -13,13 +7,14 @@
     "test": "jest",
     "lint": "eslint --ext js,ts,jsx,tsx packages --fix",
     "lint:p": "prettier --write \"packages/**/*.{js,ts,jsx,tsx}\"",
-    "prerelease": "yarn build",
-    "release": "yarn lerna publish from-package"
+    "prerelease": "npm run build",
+    "release": "lerna publish from-package",
+    "bootstrap": "lerna bootstrap --hoist"
   },
   "lint-staged": {
     "packages/**/*.{js,jsx,ts,tsx}": [
-      "yarn lint",
-      "yarn lint:p"
+      "lint",
+      "lint:p"
     ]
   },
   "husky": {
@@ -76,6 +71,5 @@
     "webpack": "^5.21.2",
     "webpack-cli": "^4.5.0",
     "webpack-node-externals": "^2.5.2"
-  },
-  "dependencies": {}
+  }
 }
