@@ -1,0 +1,41 @@
+
+{    
+  "settings": {
+    "import/resolver": {
+      "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"],
+          "paths": ["src"]
+        }
+      }
+    },
+    "env": {
+      "browser": true,
+      "es2020": true,
+      "jest": true
+    },
+    "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint"],
+    "rules": {
+      "no-param-reassign": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-filename-extension": [
+        1,
+        { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+      ],
+      "no-unused-vars": "off",
+      "import/extensions": "off",
+      "no-console": "off",
+      "no-use-before-define": "off",
+      // monorepo와 호환성이 낮음, 추후 업데이트 되면 on 할 것
+      "import/no-extraneous-dependencies": "off",
+      "import/no-unresolved": ["error", {"ignore": ["@storybook/react/types-6-0"]}]
+    }
+  }
