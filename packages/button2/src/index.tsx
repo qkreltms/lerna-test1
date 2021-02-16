@@ -1,10 +1,14 @@
 import React from 'react';
-import styles from './Button.module.scss';
+import styled from 'styled-components';
 
 const Button = () => (
-  <button type="button" className={styles.simpleButton}>
+  <MyButton type="button">
     test7
-  </button>
+  </MyButton>
 );
+
+const MyButton = styled.button`
+background-color: pink
+`
 
 export default Button;
