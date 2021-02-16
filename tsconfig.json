@@ -16,6 +16,10 @@
     "isolatedModules": true,
     "jsx": "react",
   },
+  "paths": {
+    "@my/button": ["packages/button/lib"],
+    "@my/button2": ["packages/button2/lib"],
+  },
   "include": ["packages/*/src", "global.d.ts"],
   "exclude": ["node_modules", "**/*.test.ts", "**/*.test.tsx", "lib", "dist"]
 }

@@ -5,7 +5,7 @@
   "main": "lib",
   "scripts": {
     "type": "tsc --noEmit",
-    "clean": "rimraf lib coverage",
+    "clean": "rimraf lib coverage && rimraf tsconfig.tsbuildinfo",
     "build:ts": "tsc --declarationDir lib --emitDeclarationOnly",
     "build:js": "webpack-cli",
     "build": "npm run clean && npm run build:js && npm run build:ts"

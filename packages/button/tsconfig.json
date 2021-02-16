@@ -4,6 +4,7 @@
     "declarationDir": "./lib",
     "rootDir": "./src",
     "baseUrl": "./",
+    "composite": true
   },
   "include": ["./src", "../../global.d.ts"],
   "references": [
