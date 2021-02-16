@@ -1,3 +1,3 @@
-import Button2 from '@my/button2';
+import Button2 from '@my/button2'
 
-export default Button2;
+export default Button2

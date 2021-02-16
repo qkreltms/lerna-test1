@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
-import { Story, Meta } from '@storybook/react/types-6-0';
+import { Story, Meta } from '@storybook/react/types-6-0'
 
-import Button from '../src';
+import Button from '../src'
 
 export default {
   title: '@my/Button',
@@ -10,8 +10,8 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} as Meta;
+} as Meta
 
-const Template: Story = (args) => <Button {...args} />;
+const Template: Story = (args) => <Button {...args} />
 
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
