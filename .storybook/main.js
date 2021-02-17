@@ -1,4 +1,4 @@
-// 주의 style.module.*는 지원하지 않음
+// style.module.* is not supported
 
 module.exports = {
   stories: [
