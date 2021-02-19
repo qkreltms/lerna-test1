@@ -7,7 +7,7 @@
     "type": "tsc --noEmit",
     "clean": "rimraf lib coverage && rimraf tsconfig.tsbuildinfo",
     "build:ts": "tsc --declarationDir lib --emitDeclarationOnly",
-    "build:js": "webpack-cli",
+    "build:js": "webpack-cli -m -c ../../webpack.config.js -c ./webpack.config.js",
     "build": "npm run clean && npm run build:js && npm run build:ts"
   },
   "publishConfig": {
